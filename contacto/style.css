@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik+Mono+One&display=swap');
+* {
+  
+  padding: 0px;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+
+body {
+    background-image: url(../img/contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0;
+  }
+  
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    font-family: "Antonio", sans-serif;
+    text-transform: uppercase;
+    padding: 2vh 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1vh 2vw;
+    transition: background 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(199, 21, 21, 0.808);
+    border-radius: 0.5vw;
+  }
+
+  .formulario {
+    background-color: #0e0d0dc0;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px black;
+    width: 400px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-family: "Antonio", sans-serif;
+    text-align: center;
+    color: rgba(199, 21, 21, 0.808);
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: whitesmoke
+  }
+  
+  input, textarea {
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    border: 1px solid rgba(150, 145, 145, 0.589);
+    border-radius: 4px;
+    background-color: rgba(7, 7, 7, 0.418);
+    color: whitesmoke;
+    font-size: large;
+  }
+  
+  button {
+    padding: 0.8rem;
+    background-color: rgba(199, 21, 21, 0.808);
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #00000058;
+  }
+
+/* Copyright */
+.copyright {
+  background-color: rgb(10, 10, 10);
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Antonio", sans-serif;
+  font-size: 1vw;
+  padding-top: 1vw;
+  width: 100%;
+}
+
+/* Redes sociales */
+.redesSociales {
+  background-color: rgb(10, 10, 10);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 1rem 0;
+  width: 100%;
+  margin: 0;
+}
+
+.redesSociales li {
+  margin: 0 .5rem;
+}
+
+.redesSociales a {
+  color: whitesmoke;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.redesSociales li:hover a {
+  color: rgba(199, 21, 21, 0.808);
+}

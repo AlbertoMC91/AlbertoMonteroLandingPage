@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik+Mono+One&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Antonio", sans-serif;
+  color: whitesmoke;
+}
+
+body {
+    background-image: url(../img/contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+  }
+
+  section {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    font-family: "Antonio", sans-serif;
+    text-transform: uppercase;
+    padding: 2vh 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1vh 2vw;
+    transition: background 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(199, 21, 21, 0.808);
+    border-radius: 0.5vw;
+  }
+
+h1 {
+    text-align: center;
+    font-family: "Antonio", sans-serif;
+    color: rgba(199, 21, 21, 0.808);
+    margin-bottom: 1.5rem;
+    font-family: "Antonio", sans-serif;
+    
+  }
+
+.sobremi {
+    background-color: rgba(0, 0, 0, 0.651);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    width: 50vw;
+}
+
+.sobremi p {
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;      
+    width: 100%;              
+    line-height: 1.4;
+    box-sizing: border-box;
+    padding-bottom: 2vw; 
+}
+
+/*Copyright*/
+
+.copyright {
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  color: whitesmoke;
+  bottom: 0px;
+  padding: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw; 
+}
+.copyright p{
+  text-align: center;
+  font-family: "Antonio", sans-serif;
+}
+
+/*Redes sociales*/
+
+.redesSociales{
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redesSociales li {
+  color: whitesmoke;
+  margin: 0 0.5vw;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.redesSociales a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.2vw; 
+}
+
+.redesSociales li:hover a {
+  color: rgba(199, 21, 21, 0.808);
+}
