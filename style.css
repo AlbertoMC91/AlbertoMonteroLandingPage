@@ -165,6 +165,7 @@ header .navbar li a:hover {
 }
 
 .contenido .imgBox img {
+    margin-top: 10vh;
     width: 50vh;
     height: auto;
     display: block;
@@ -272,6 +273,7 @@ header .navbar li a:hover {
     }
 
     .contenido .imgBox img {
+        padding-top: 30vh;
         max-width: 90%;
         max-height: 50vh;
     }
