@@ -304,6 +304,7 @@ header {
       align-items: center;
       justify-content: center;
       gap: 1.5vh;
+      padding-bottom: 2vh;
     }
 
     .navbar a {
