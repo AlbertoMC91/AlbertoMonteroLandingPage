@@ -352,12 +352,14 @@ header {
     .navbar {
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       gap: 2vh;
+      padding-bottom: 2vh;
     }
   
     .navbar a {
-      font-size: 1.3em;
-      padding: 1vh 1vw;
+      font-size: 1.1em;
+      padding: 0.8vh 1vw;
     }
   
     .redesSociales {
@@ -424,9 +426,16 @@ header {
       font-size: 4vw;
     }
   
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5vh;
+    }
+
     .navbar a {
-      font-size: 1.2em;
-      padding: 1vh 2vw;
+      font-size: 1em;
+      padding: 1vh 1vw;
     }
   
     .redesSociales {
