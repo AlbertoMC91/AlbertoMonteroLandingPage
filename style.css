@@ -158,18 +158,15 @@ header .navbar li a:hover {
 }
 
 .contenido .imgBox {
-    width: 50%;
-    justify-content: flex-end;
-    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .contenido .imgBox img {
-    width: auto;
-    height: auto;
-    max-height: 65vh;
-    margin-right: 8vw;
-    margin-left: 8vw;
-    
+    margin: 0 auto;
+    display: block;
 }
 
 /*Copyright*/
@@ -331,11 +328,13 @@ header .navbar li a:hover {
 
     .contenido .imgBox {
         margin-top: 4vh;
+        
     }
 
     .contenido .imgBox img {
         max-width: 90%;
         max-height: 50vh;
+        margin: auto;
     }
 }
 
@@ -344,7 +343,7 @@ header .navbar li a:hover {
 @media (max-width: 480px) {
 
     header .logo-link img {
-        max-width: 40vw;
+        max-width: 60vw;
     }
     
     .contenido .tituloBox h2 {
@@ -356,8 +355,13 @@ header .navbar li a:hover {
         font-size: 1.1em;
     }
 
+    .contenido .imBox {
+        align-items: center;
+    }
+
     .contenido .imgBox img {
         max-height: 40vh;
+        margin: auto;
     }
 
     .redesSociales {
@@ -366,9 +370,5 @@ header .navbar li a:hover {
 
     .redesSociales li {
         margin: 5px;
-    }
-
-    header .logo-link img {
-        max-width: 60vw;
     }
 }
