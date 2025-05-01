@@ -12,6 +12,19 @@ body {
     background-size: cover;
 }
 
+.logoResponsive {
+    width: 100%;
+    display: none;
+    justify-content: center;
+  }
+
+  .logoResponsive img {
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+  }
+
+
 section {
     position: relative;
     width: 100%;
@@ -263,6 +276,11 @@ header {
   /*Móviles*/
 
   @media (max-width: 768px) {
+
+    .logoResponsive {
+      display: block;
+    }
+      
     section {
       flex-direction: column;
       align-items: center;
@@ -361,6 +379,11 @@ header {
   /*Móviles pequeños*/
   
   @media (max-width: 480px) {
+
+    .logoResponsive {
+      display: block;
+    }
+      
     .img img,
     .imgPaises img {
       max-width: 95vw;
