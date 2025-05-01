@@ -204,3 +204,171 @@ header .navbar li a:hover {
 .redesSociales li:hover a {
     color: rgba(199, 21, 21, 0.808);
 }
+
+/*RESPONSIVE*/
+
+/*Tablets*/
+
+@media (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 1vh 0;
+    }
+
+    header .logo-link {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .logo-link img {
+        width: 100%;
+        max-width: 100vw;
+        height: auto;
+    }
+
+    header .navbar {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    header .navbar li {
+        margin: 1vh 0;
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4vh;
+    }
+
+    .contenido .tituloBox {
+        max-width: 80%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contenido .tituloBox h2 {
+        font-size: 2.2em;
+    }
+
+    .contenido .tituloBox p,
+    .contenido .tituloBox .frase2 {
+        font-size: 1.3em;
+    }
+
+    .contenido .tituloBox a {
+        margin-left: 0;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .contenido .imgBox {
+        margin-top: 4vh;
+    }
+
+    .contenido .imgBox img {
+        max-width: 90%;
+        max-height: 50vh;
+    }
+}
+
+/*Móviles*/
+
+@media (max-width: 768px) {
+
+    header .logo-link img {
+        max-width: 40vw;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    header .navbar {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    header .navbar li {
+        margin: 1vh 0;
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido .tituloBox {
+        max-width: 90%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contenido .tituloBox h2 {
+        font-size: 2.2em;
+    }
+
+    .contenido .tituloBox p,
+    .contenido .tituloBox .frase2 {
+        font-size: 1.3em;
+    }
+
+    .contenido .tituloBox a {
+        margin-left: 0;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .contenido .imgBox {
+        margin-top: 4vh;
+    }
+
+    .contenido .imgBox img {
+        max-width: 90%;
+        max-height: 50vh;
+    }
+}
+
+/* Móviles pequeños*/
+
+@media (max-width: 480px) {
+
+    header .logo-link img {
+        max-width: 40vw;
+    }
+    
+    .contenido .tituloBox h2 {
+        font-size: 1.8em;
+    }
+
+    .contenido .tituloBox p,
+    .contenido .tituloBox .frase2 {
+        font-size: 1.1em;
+    }
+
+    .contenido .imgBox img {
+        max-height: 40vh;
+    }
+
+    .redesSociales {
+        flex-wrap: wrap;
+    }
+
+    .redesSociales li {
+        margin: 5px;
+    }
+
+    header .logo-link img {
+        max-width: 60vw;
+    }
+}
