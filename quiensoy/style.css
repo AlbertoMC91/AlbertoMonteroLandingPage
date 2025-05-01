@@ -294,6 +294,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 1.5vh;
+    paddig-bottom: 2vh;
   }
 
   .navbar a {
