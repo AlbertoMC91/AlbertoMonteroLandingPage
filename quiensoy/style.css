@@ -231,6 +231,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 2vh;
+    padding: 0;
     padding-bottom: 2vh;
   }
 
@@ -294,7 +295,8 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 1.5vh;
-    paddig-bottom: 2vh;
+    padding: 0;
+    padding-bottom: 2vh;
   }
 
   .navbar a {
