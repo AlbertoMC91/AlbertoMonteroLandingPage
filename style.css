@@ -327,14 +327,19 @@ header .navbar li a:hover {
     }
 
     .contenido .imgBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         margin-top: 4vh;
-        
+        text-align: center;
     }
 
     .contenido .imgBox img {
         max-width: 90%;
         max-height: 50vh;
-        margin: auto;
+        display: block;
+        margin: 0 auto;
     }
 }
 
