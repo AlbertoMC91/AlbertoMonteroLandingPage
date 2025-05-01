@@ -228,15 +228,15 @@ h1 {
 
   .navbar {
     flex-direction: column;
-    gap: 5vh;
-    padding: 3vh 0;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding-bottom: 2vh;
   }
 
   .navbar a {
-    font-size: 1.4em;
-    padding: 1vh 2vw;
+    font-size: 1.1em;
+    padding: 0.8vh 1vw;
   }
 
   h1 {
@@ -291,15 +291,14 @@ h1 {
 
   .navbar {
     flex-direction: column;
-    gap: 6vh;
-    padding: 4vh 0;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 1.5vh;
   }
 
   .navbar a {
-    font-size: 1.6em;
-    padding: 2vh 3vw;
+    font-size: 1em;
+    padding: 1vh 1vw;
   }
 
   h1 {
