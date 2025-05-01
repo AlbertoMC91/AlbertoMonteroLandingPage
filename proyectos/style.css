@@ -221,6 +221,11 @@ header {
   /*Móviles*/
 
   @media (max-width: 768px) {
+
+    .paginaPrincipal {
+      display: none;
+    }
+
     body {
       background-size: cover;
       background-position: center;
@@ -288,6 +293,11 @@ header {
   /*Móviles pequeños*/
 
   @media (max-width: 480px) {
+
+    .paginaPrincipal {
+      display: none;
+    }
+
     body {
       background-size: cover;
       background-position: center;

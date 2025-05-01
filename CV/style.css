@@ -277,6 +277,10 @@ header {
 
   @media (max-width: 768px) {
 
+    .paginaPrincipal {
+      display: none;
+    }
+
     .logoResponsive {
       display: block;
     }
@@ -381,6 +385,10 @@ header {
   /*Móviles pequeños*/
   
   @media (max-width: 480px) {
+
+    .paginaPrincipal {
+      display: none;
+    }
 
     .logoResponsive {
       display: block;

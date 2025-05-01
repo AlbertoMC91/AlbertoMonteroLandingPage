@@ -99,15 +99,18 @@ header .navbar li a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-bottom: 0;
     padding: 0;
+    gap: 2vw;
 }
 
 .contenido .tituloBox {
     position: relative;
-    max-width: 50%;
+    max-width: 45%;
+    flex: 1 1 45%;
     text-align: left;
+    margin-left: 2vw;
     margin-top: 3vh;
 }
 
@@ -128,10 +131,6 @@ header .navbar li a:hover {
 .frase {
     margin-top: 2vw;
     text-align: center;
-}
-
-.contenido .tituloBox {
-    margin-left: 8vw;
 }
 
 .contenido .tituloBox p {
@@ -161,13 +160,16 @@ header .navbar li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    flex: 1 1 45%;
+    max-width: 45%;
 }
 
 .contenido .imgBox img {
-    margin: 0 auto;
+    width: 50vh;
+    height: auto;
     display: block;
 }
+
 
 /*Copyright*/
 
@@ -241,7 +243,7 @@ header .navbar li a:hover {
     .contenido {
         flex-direction: column;
         align-items: center;
-        margin-top: 4vh;
+        margin-top: 20vh;
     }
 
     .contenido .tituloBox {

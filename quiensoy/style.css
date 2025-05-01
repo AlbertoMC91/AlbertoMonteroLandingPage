@@ -215,6 +215,11 @@ h1 {
 /*Moviles*/
 
 @media (max-width: 768px) {
+
+  .paginaPrincipal {
+    display: none;
+  }
+
   body {
     background-size: cover;
     background-position: center;
@@ -279,6 +284,11 @@ h1 {
 /*Moviles pequños*/
 
 @media (max-width: 480px) {
+
+  .paginaPrincipal {
+    display: none;
+  }
+  
   body {
     background-size: cover;
     background-position: center;
@@ -328,7 +338,7 @@ h1 {
   }
 
   .redesSociales {
-    flex-direction: column;
+    display: flex;
     align-items: center;
     gap: 3rem;
     padding: 5vw;
