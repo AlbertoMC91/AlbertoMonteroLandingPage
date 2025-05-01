@@ -257,6 +257,7 @@ header {
   
     .redesSociales {
       flex-wrap: wrap;
+      flex-directio: row;
       align-items: center;
       gap: 1.5rem;
       padding: 3vw;
@@ -318,6 +319,7 @@ header {
   
     .redesSociales {
       align-items: center;
+      flex-direction: row;
       gap: 2rem;
       padding: 4vw;
     }
