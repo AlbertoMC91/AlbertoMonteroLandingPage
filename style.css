@@ -133,6 +133,11 @@ header .navbar li a:hover {
     text-align: center;
 }
 
+.contenido .tituloBox {
+    align-items: center;
+    text-align: center;
+}
+
 .contenido .tituloBox p {
     font-size: 2em;
     line-height: 1.5;
@@ -149,7 +154,6 @@ header .navbar li a:hover {
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;
-    margin-left: 40%;
 }
 
 .contenido .tituloBox a:hover {
